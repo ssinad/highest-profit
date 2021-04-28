@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-docker run -it --pull always ssinad/highest-profit:latest
+docker run -it --pull always -v ${PWD}:/root ssinad/highest-profit:latest
