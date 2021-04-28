@@ -1,2 +1,5 @@
 #!/usr/bin/env sh
-docker run -it --pull always -v ${PWD}:/root ssinad/highest-profit:latest
+
+CURRENT_DIR=$(dirname "$0")
+cd "$CURRENT_DIR"
+docker run -it --pull always -v "${PWD}":/root ssinad/highest-profit:latest
