@@ -2,6 +2,7 @@
 
 To run the example, simply execute the script named `run` using a shell of your choice.
 
+The challenge description can be found [here](https://github.com/bobbae/gcp/tree/main/challenges/highest-profit).
 Part 1 and 2 are done inside the Python file.  
 As for the third part, if the non-numeric values are assumed to be NULL in the table, the following queries should do the same in SQL.
 ```sql
